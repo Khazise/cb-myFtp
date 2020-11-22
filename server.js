@@ -19,8 +19,7 @@ const server = net.createServer((socket) => {
         case 'USER':
             // check if user exist in database
             // if true
-
-            console.log(user);
+            
             let userExits = 'user not exits';
             user.forEach(data => { 
                 if(data.username == parameter)
